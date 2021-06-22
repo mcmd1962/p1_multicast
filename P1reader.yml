@@ -1,0 +1,32 @@
+# vim: set filetype=yaml tabstop=2 shiftwidth=2 softtabstop=2 number expandtab:
+
+multicast:
+  address: 224.7.2.1
+  port: 52001
+  TTL: 2
+
+p1_reader_details:
+  filename: /var/ram/p1reader-test/p1_reader_details-DAY.csv
+  flush_period: 60
+  flush_period: 6
+
+p1_reader_interval:
+  filename: /var/ram/p1reader-test/p1_reader_interval-PERIOD.csv
+  flush_period: 1200
+  flush_period: 200
+
+p1_reader_day:
+  filename: /var/ram/p1reader-test/p1_reader_day-DAY.csv
+  flush_period: 3600
+  flush_period: 360
+
+html_report:
+  filename: /dev/shm/test-p1-lastm.html
+  flush_period: 5
+
+weekly_log:
+  filename: /var/ram/p1reader-test/p1_reader-YYYY-Www.log
+  measurement_period: 10
+  flush_period: 3600
+  flush_period: 36
+
